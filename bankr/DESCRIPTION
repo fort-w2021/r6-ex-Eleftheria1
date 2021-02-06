@@ -1,0 +1,19 @@
+Package: bankr
+Title: Provide bank account classes (R6)
+Version: 0.1.0
+Authors@R: 
+    person(given = "Eleftheria",
+           family = "Papavasiliou",
+           role = c("aut", "cre"),
+           email = "E.Papavasileiou@campus.lmu.de")
+Description: Provide different kind of bank account classes that come with methods like withdraw or deposit. Beside the standart Account also a GiroAccount is featured.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    R6,
+    checkmate
+Suggests: 
+    testthat
